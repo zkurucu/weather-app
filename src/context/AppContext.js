@@ -9,7 +9,7 @@ const getCities = () => {
   }));
 };
 
-const AppContext = createContext();
+const AppContext = createContext({});
 
 export const AppProvider = ({ children }) => {
   const [city, setCity] = useState("Denizli");

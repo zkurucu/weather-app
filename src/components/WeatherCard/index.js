@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Image } from "semantic-ui-react";
 
-function WeatherCard({ day, icon, min, max }) {
+function WeatherCard({ day, icon, min, max, isFirst }) {
   return (
-    <Card>
+    <Card className={isFirst ? "current-day" : ""}>
       <Card.Content textAlign="center">
         <Card.Description>{day}</Card.Description>
       </Card.Content>

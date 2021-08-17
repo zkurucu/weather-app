@@ -7,3 +7,7 @@ div.city-dropdown {
   padding: 10px;
   background-color: aliceblue;
 }
+
+.current-day {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
