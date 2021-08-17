@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preview
+
+[![React Weather App](https://user-images.githubusercontent.com/18014357/126193359-1011389c-81e3-4019-89f7-833273dccb88.PNG)](https://react-weather-app-example.netlify.app/)
+
+**[Launch Live Preview](https://react-weather-app-example.netlify.app/)**
+
 ## Available Scripts
 
 In the project directory, you can run:
