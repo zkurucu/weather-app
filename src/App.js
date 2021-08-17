@@ -12,7 +12,7 @@ const cityOptions = [
 
 function App() {
   return (
-    <Container>
+    <Container className="app">
       <h2>Weather App</h2>
       <div className="city-dropdown">
         <Dropdown
@@ -22,6 +22,7 @@ function App() {
           options={cityOptions}
         />
       </div>
+      <Weather />
     </Container>
   );
 }
