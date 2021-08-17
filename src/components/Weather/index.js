@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import WeatherCard from "../WeatherCard";
 import { Card } from "semantic-ui-react";
+import { useApp } from "../../context/AppContext";
 
 const weathers = [
   { day: "Pzt", icon: "01d", min: 21, max: 38 },
@@ -13,12 +14,18 @@ const weathers = [
 ];
 
 function Weather() {
+  const { city } = useApp();
+
+  useEffect(() => {
+    console.log(city);
+  }, [city]);
+
   return (
     <div>
       <Card.Group itemsPerRow={weathers.length}>
-        {weathers.map(value => 
-          <WeatherCard {...value} />
-        )}
+        {weathers.map((value, index) => (
+          <WeatherCard key={index} {...value} />
+        ))}
       </Card.Group>
     </div>
   );
