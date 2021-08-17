@@ -2,10 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Warning!
-
-This application uses open-weather-map-api. Therefore, you must set the REACT_APP_OPEN_WEATHER_MAP_API_KEY variable in the .env file.
-
 ## Available Scripts
 
 In the project directory, you can run:
